@@ -18,7 +18,7 @@ function convertToRoman(num) {
   //your code here
 	 let result = '';
 
-    for (const { value, symbol } of romanMap) {
+    for (const { value, symbol } of obj) {
         while (num >= value) {
             result += symbol;
             num -= value;
